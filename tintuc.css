@@ -55,6 +55,7 @@ body {
 
 .tt-search-all {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -721,7 +722,7 @@ body {
     }
 
     #card-boder-medium {
-        width: 47%;
+        width: 45%;
         padding: 0;
         margin: 0;
     }
@@ -733,6 +734,10 @@ body {
 
     .tt-bottom-main {
         flex-wrap: wrap;
+    }
+
+    .tt-widget.tt-boder-right:not(:last-of-type)::after {
+        content: "";
     }
 
     .tt-footer-1 {
@@ -754,21 +759,26 @@ body {
     #card-footer {
         width: 45%;
     }
-    .tt-footer-active{
+
+    .tt-footer-active {
         display: flex;
         flex-direction: column;
     }
-    .tt-footer-2{
+
+    .tt-footer-2 {
         justify-content: flex-end;
         flex-direction: column;
     }
-    .tt-footer-nolist{
+
+    .tt-footer-nolist {
         flex-direction: column;
     }
-    .tt-footer-inline{
+
+    .tt-footer-inline {
         border: none;
     }
-    .tt-footer-banquyen{
+
+    .tt-footer-banquyen {
         order: 2;
     }
 }
