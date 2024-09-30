@@ -55,6 +55,7 @@ body {
 
 .tt-search-all {
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -102,12 +103,6 @@ body {
     border-right: 1px solid #ccc;
 }
 
-.tt-boder-1 {
-    height: 20px;
-    border-right: 1px solid #ccc;
-    display: none;
-}
-
 #tt-form-select {
     border: none;
     outline: none;
@@ -128,8 +123,8 @@ body {
 
 .tt-ngonngu {
     display: flex;
-    align-items: center;
     position: relative;
+    align-items: center;
     justify-content: center;
 }
 
@@ -171,188 +166,193 @@ body {
     margin-left: 5px;
 }
 
-.tt-main-new {
+.cc-picture>img {
     width: 100%;
-    display: flex;
-}
-
-.tt-hot {
-    width: 50%;
-}
-
-.tt-card-hot {
-    text-decoration: none;
-}
-
-.card {
-    width: 98%;
-}
-
-.cart-anh-1 {
-    width: 100%;
+    margin-top: 20px;
     object-fit: cover;
-    position: relative;
-    height: 470px;
 }
 
-.card-body-1::before {
-    content: "";
-    background: linear-gradient(to top, rgba(30, 107, 166, 0.8) 0%, rgba(30, 107, 166, 0) 100%, transparent 70%, transparent 100%);
-    position: absolute;
+.gt-item {
+    color: #0076c0;
+    font-weight: 700;
+}
+
+.gt-post-detail {
+    width: 100%;
+}
+
+.gt-detail-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gt-post-detail-1 {
+    width: 66.6667%;
+}
+
+.gt-line {
+    border-bottom: 1px solid #ddd;
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    line-height: 1.2;
+}
+
+.gt-main-article {
+    line-height: 1.8;
+}
+
+.gt-main-article>p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.gt-anh {
+    margin: 0 auto 15px;
+}
+
+.gt-anh-1>img {
     width: 100%;
     height: 100%;
-    top: 1px;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}
-
-.card-body-1 {
-    position: absolute;
-    bottom: 1px;
-    z-index: 1;
-}
-
-#card-color {
-    color: #fff;
-    padding: 0;
-}
-
-.btn-size>img {
-    width: 16px;
-    height: 12px;
-    margin-left: 5px;
-}
-
-.tt-thanhtich {
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.tt-thanhtich-1 {
-    width: 47%;
-}
-
-.card-body>a {
-    color: #999;
-    font-size: 12px;
-}
-
-.card-body>a:hover {
-    color: #007EA9;
-}
-
-#card-boder {
-    border-radius: 0;
-    height: 473px;
-    min-height: 400px;
-    margin-left: 5px;
-}
-
-#tt-xemthem {
-    padding: 0;
-}
-
-#card-title {
-    color: #0076CA;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.card-thanhtich>a>img {
-    width: 100%;
-    height: 200px;
+    border-radius: 5px;
     object-fit: cover;
 }
 
-#card-text {
-    font-size: 13px;
+.gt-caption {
+    font-size: 12px;
+    text-align: center;
+    margin: 10px auto 0;
 }
 
-.tt-bottom-new {
-    width: 100%;
-    margin-top: 50px;
-}
-
-.card-body>a {
+.gt-sieuam {
     text-decoration: none;
+    color: #0077aa;
 }
 
-.tt-baiviet-1 {
-    font-size: 26px;
-    font-weight: 700;
+.gt-sieuam:hover {
+    text-decoration: underline;
 }
 
-.tt-boder-luc {
-    width: 6%;
-    border: 2px solid #51BE9D;
-    margin-bottom: 40px;
+.gt-meta-bottom {
+    padding: 8px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
 }
 
-.tt-list-cate {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-
-}
-
-.tt-list-cate>a {
-    text-decoration: none;
-    font-weight: 700;
+.gt-share {
     color: #999;
-    font-size: 14px;
-    margin-left: 15px;
-    transition: all 0.5s ease;
-}
-
-.tt-list-cate>a:hover {
-    color: #0076CA;
-}
-
-.tt-thanhtich-nhieu {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 
-.tt-thanhtich-nhieu-1 {
-    width: 23.5%;
-    margin-bottom: 25px;
+.gt-socical-share {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    gap: 10px;
+    margin: 0;
+    margin-left: 1rem;
 }
 
-.tt-phantrang {
-    text-align: center;
-    margin-bottom: 50px;
+.gt-list-subtitle {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.tt-item-paging.active {
-    padding: 4px 10px;
-    border-radius: 100%;
-    color: #fff;
-    background-color: #0076c0;
+.gt-list-subtitle>li:not(:last-child) {
+    margin-right: 8px;
+    padding-right: 8px;
+    position: relative;
 }
 
-.tt-item-paging.active-1:hover {
-    padding: 4px 10px;
-    border-radius: 100%;
-    color: #fff;
-    background-color: #0076c0;
+.gt-list-subtitle>li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 55%;
+    right: 0;
+    height: 70%;
+    border-right: 1px solid #286ba6;
+    transform: translateY(-50%);
 }
 
-.tt-item-paging {
+.gt-list-subtitle>li>a {
     text-decoration: none;
-    color: #999;
-    margin: 0 5px;
-    line-height: 25px;
-    font-size: 15px;
+    color: #286ba6;
 }
 
-.tt-item-paging>img {
-    height: 12px;
+.gt-list-subtitle>li>a:hover {
+    text-decoration: underline;
+}
+
+.gt-sidebar {
+    width: 33.33333%;
+    padding-left: 50px;
+}
+
+.gt-widget-post-sidebar {
+    border-top: 1px solid #ccc;
+}
+
+.gt-widget-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.gt-post {
+    display: flex;
+    align-items: center;
+}
+
+.gt-post:not(:last-child) {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.gt-post-thumb {
+    width: 150px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+.gt-post-thumb>img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.gt-post-info {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.gt-post-info>a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    transition: all 0.5s ease
+}
+
+.gt-post-info>a:hover {
+    color: #0076c0;
+}
+
+.gt-post-thumb-1>img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
 }
 
 .tt-bottom-main {
@@ -376,11 +376,10 @@ body {
 }
 
 .tt-medium {
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-bottom: 25px;
 }
 
 #tt-medium-size {
@@ -411,11 +410,90 @@ body {
     margin-top: 1rem;
 }
 
-#zone_19 {
-    min-height: 250px;
-    margin: 0px;
-    padding: 0px;
+#card-medium>a {
+    text-decoration: none;
 }
+
+.gt-related-posts {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.gt-related-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.tt-thanhtich-nhieu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+
+.tt-thanhtich-nhieu-1 {
+    width: 33.33333%;
+    padding-right: 1rem;
+}
+
+.card-thanhtich>a>img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#card-title {
+    color: #222;
+    font-size: 22px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+#card-title:hover {
+    color: #0076c0;
+}
+
+#card-text {
+    font-size: 16px;
+}
+
+.card {
+    width: 98%;
+}
+
+.card-body>a {
+    color: #999;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.card-body>a:hover {
+    color: #007EA9;
+}
+
+#tt-xemthem {
+    padding: 0;
+}
+
+.btn-size>img {
+    width: 16px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+#card-boder {
+    border-radius: 0;
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    height: 500px;
+    min-height: 500px;
+}
+
 
 .tt-footer {
     width: 100%;
@@ -478,6 +556,23 @@ body {
 .card-text>a>img {
     width: 35px;
     height: 35px;
+}
+
+.gt-banner-block {
+    width: 100%;
+    margin-top: 45px;
+}
+
+.gt-block-anh {
+    text-decoration: none;
+    width: 100%;
+}
+
+.gt-block-anh>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 30px;
 }
 
 .tt-footer-active>a>img {
@@ -550,6 +645,8 @@ body {
 
 .tt-menu-icon {
     display: none;
+    font-size: 25px;
+    color: #0076c0;
 }
 
 .tt-icon-search {
@@ -581,7 +678,8 @@ body {
 .accordion-button-none::after {
     display: none;
 }
-.accordion-button>a{
+
+.accordion-button>a {
     text-decoration: none;
     color: #212529;
 }
@@ -599,8 +697,12 @@ body {
         gap: 5px;
     }
 
-    #card-boder {
-        height: 500px;
+    #card-title {
+        font-size: 20px;
+    }
+
+    #card-text {
+        font-size: 14px;
     }
 }
 
@@ -612,6 +714,16 @@ body {
     .menu {
         width: 100%;
         display: block;
+    }
+
+    .container-body-1 {
+        width: 98%;
+        margin: auto;
+    }
+
+    .gt-post {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     #tt-menu {
@@ -627,35 +739,46 @@ body {
     }
 
     #card-title {
-        font-size: 14px;
-    }
-
-    #card-text {
-        font-size: 11px;
+        font-size: 20px;
     }
 
     .tt-thanhtich-nhieu-1 {
-        width: 49.5%;
-
+        width: 50%;
     }
 
-    .card-thanhtich>a>img {
-        height: 250px;
+    .gt-related-posts {
+        width: 98%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .tt-bottom-main {
+        width: 98%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .tt-medium {
-        gap: 20px;
+        width: 98%;
+        margin: auto;
         justify-content: flex-start;
+        gap: 25px;
     }
 
     #card-boder-medium {
-        width: 48%;
-        padding: 0;
-        margin: 0;
+        width: 47%;
+        margin-bottom: 10px;
     }
 
-    #card-boder-medium>a>img {
-        height: 300px;
+    .gt-banner-block {
+        width: 98%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .gt-block-anh>img {
+        width: 98%;
     }
 
     .tt-footer-1 {
@@ -678,7 +801,7 @@ body {
 @media (width < 750px) {
     .container-1 {
         width: 98%;
-        padding: 0 15px;
+        margin: auto;
     }
 
     .tt-form-none {
@@ -693,15 +816,6 @@ body {
         display: block;
     }
 
-    .tt-menu-icon {
-        font-size: 25px;
-        color: #0076c0;
-    }
-
-    .tt-search-all {
-        align-items: center;
-    }
-
     .tt-anhvn {
         top: 3px;
     }
@@ -714,72 +828,94 @@ body {
         font-size: 8px;
     }
 
+    .tt-menu-icon>i {
+        font-size: 25px;
+        color: #0076c0;
+    }
+
+    .tt-search-all {
+        align-items: center;
+    }
+
     .tt-boder-1 {
         display: block;
     }
 
-    .tt-main-new {
+    .container-body-1 {
+        width: 92%;
+        margin: auto;
+    }
+
+    .gt-line {
+        font-size: 25px;
+    }
+
+    .gt-detail-content {
         flex-direction: column;
-        align-items: center;
-        gap: 20px;
     }
 
-    .tt-hot {
+    .gt-post-detail-1 {
         width: 100%;
     }
 
-    .tt-thanhtich-1 {
+    .gt-sidebar {
         width: 100%;
-    }
-
-    .tt-thanhtich {
-        width: 100%;
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    #card-boder {
-        margin-left: 0;
-        height: 420px;
+        margin-top: 20px;
+        padding-left: 0;
     }
 
     .tt-thanhtich-nhieu-1 {
         width: 100%;
+        padding-right: 0;
+        margin: auto;
     }
 
-    .tt-list-cate {
+    .gt-related-posts {
+        width: 92%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .tt-bottom-main {
+        width: 92%;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        gap: 10px;
-    }
-
-    .tt-list-cate>a {
-        margin-left: 0;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
     }
 
     .tt-medium {
-        gap: 20px;
+        width: 92%;
+        margin: auto;
         justify-content: flex-start;
     }
 
     #card-boder-medium {
-        width: 45%;
-        padding: 0;
-        margin: 0;
+        width: 98%;
+        margin-top: 20px;
     }
 
     #card-boder-medium>a>img {
-        width: 100%;
-        height: 150px;
+        height: 250px;
     }
 
     .tt-bottom-main {
-        flex-wrap: wrap;
-        align-items: center;
+        justify-content: space-around;
+        gap: 2px;
     }
 
     .tt-widget.tt-boder-right:not(:last-of-type)::after {
-        content: "";
+        content: none;
+    }
+
+    .gt-banner-block {
+        width: 92%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .gt-block-anh>img {
+        width: 98%;
     }
 
     .tt-footer-1 {
