@@ -664,6 +664,10 @@ body {
         display: block;
     }
 
+    .tt-anhvn {
+        top: 62px;
+    }
+
     .tt-menu-icon>i {
         font-size: 25px;
         color: #0076c0;
