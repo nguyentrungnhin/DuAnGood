@@ -581,7 +581,8 @@ body {
 .accordion-button-none::after {
     display: none;
 }
-.accordion-button>a{
+
+.accordion-button>a {
     text-decoration: none;
     color: #212529;
 }
@@ -699,6 +700,7 @@ body {
     }
 
     .tt-search-all {
+        margin: auto;
         align-items: center;
     }
 

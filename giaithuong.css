@@ -684,6 +684,12 @@ body {
     color: #212529;
 }
 
+.tt-boder-1 {
+    height: 20px;
+    border-right: 1px solid #999;
+    display: none;
+}
+
 @media (1025px < width < 1430px) {
     .container-1 {
         width: 93%;
@@ -834,6 +840,7 @@ body {
     }
 
     .tt-search-all {
+        margin: auto;
         align-items: center;
     }
 
