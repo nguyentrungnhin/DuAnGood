@@ -668,6 +668,14 @@ body {
         top: 62px;
     }
 
+    .tt-chucnang-1 {
+        justify-content: space-around;
+    }
+
+    .tt-tinhnang {
+        font-size: 8px;
+    }
+
     .tt-menu-icon>i {
         font-size: 25px;
         color: #0076c0;
