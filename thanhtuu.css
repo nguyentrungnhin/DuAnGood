@@ -256,6 +256,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .item_tab_insurance {
@@ -852,6 +853,10 @@ body {
         display: none;
     }
 
+    .name-cate-cover {
+        top: 35%;
+    }
+
     .cover-list-news {
         height: 300px;
     }
@@ -982,10 +987,13 @@ body {
     .item_tab_insurance {
         padding: 17px 15px;
         text-align: center;
+        width: 80%;
+        font-size: 13px;
     }
 
     .thanhtuu-tab_insurance {
-        gap: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     /* footer */
