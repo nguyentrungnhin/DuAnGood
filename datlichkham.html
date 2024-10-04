@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="datlichkham.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container-all">
+            <div class="tt-chucnang">
+                <div class="container-1">
+                    <div class="tt-chucnang-1">
+                        <ul class="tt-flex"></ul>
+                        <ul class="tt-vaitro">
+                            <li>
+                                <a class="tt-tinhnang" href="#">
+                                    Tìm bác sĩ
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tt-tinhnang" href="#">
+                                    Khóa học trực tuyến
+                                </a>
+                            </li>
+                            <li>
+                                <a class="tt-tinhnang" href="#">
+                                    Chăm sóc khách hàng
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-1">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="tt-logo">
+                            <a class="navbar-brand" href="tintuc.html">
+                                <img src="img/thông tin/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="tt-search-all">
+                            <div class="tt-search">
+                                <div class="tt-form-none">
+                                    <form class="d-flex" role="search">
+                                        <div class="tt-search-1">
+                                            <button class="tt-button"><i
+                                                    class="fa-solid fa-magnifying-glass"></i></button>
+                                            <input class="form-control me-2" id="tt-input" type="search"
+                                                placeholder="Tiềm kiếm...">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tt-datlich">
+                                    <a class="tt-icon" href="#">
+                                        <img src="img/thông tin/calendar.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="tt-boder"></div>
+                                <div class="tt-icon-search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                                <div class="tt-boder-1"></div>
+                            </div>
+                            <div class="tt-ngonngu">
+                                <div class="tt-anhvn">
+                                    <img src="img/thông tin/vie.png" alt="">
+                                </div>
+                                <div class="tt-chon">
+                                    <select class="form-select icon-only" id="tt-form-select"
+                                        aria-label="Default select example">
+                                        <option value="1">English</option>
+                                        <option value="2">Việt Nam</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="tt-menu-icon">
+                                <button class="btn" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+                                    <i class="fa-solid fa-bars tt-menu-icon"></i>
+                                </button>
+
+                                <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1"
+                                    id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="staticBackdropLabel">
+                                            <a href="tintuc.html">
+                                                <img src="img/thông tin/logo.png" alt="">
+                                            </a>
+                                        </h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div>
+                                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                                            aria-controls="flush-collapseOne">
+                                                            Chuyên khoa
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Cấp cứu
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Trung tâm tim mạch
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Trung tâm Ung bướu
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Trung tâm nhi
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu none-boder">
+                                                            <a href="#">
+                                                                Còn nữa mà lười
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                                            aria-controls="flush-collapseTwo">
+                                                            Hướng dẫn khách hàng
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Liên hệ với chúng tôi
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Hệ thống Healthcare
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Tìm bác sĩ
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Bảo hiểm
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu none-boder">
+                                                            <a href="#">
+                                                                Còn nữa mà lười
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button accordion-button-none collapsed"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                                            aria-controls="flush-collapseFour">
+                                                            <a href="#">
+                                                                Hoạt động vì cộng đồng
+                                                            </a>
+                                                        </button>
+                                                    </h2>
+                                                </div>
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header">
+                                                        <button class="accordion-button collapsed" type="button"
+                                                            data-bs-toggle="collapse"
+                                                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                                            aria-controls="flush-collapseThree">
+                                                            Về Healthcare
+                                                        </button>
+                                                    </h2>
+                                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                        data-bs-parent="#accordionFlushExample">
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Tầm nhìn và sứ mệnh
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Thành tựu và giải thưởng
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Đối tác của Healthcare
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu">
+                                                            <a href="#">
+                                                                Làm việc tại Healthcare
+                                                            </a>
+                                                        </div>
+                                                        <div class="accordion-body capcuu none-boder">
+                                                            <a href="#">
+                                                                Tin tức
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            <div class="tt-line"></div>
+            <div class="container-1">
+                <div class="menu">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav" id="tt-menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#">Chuyên khoa</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hướng dẫn khách hàng</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Hoạt động vì cộng đồng</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Về Healthcare</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Chuyên trang sức khỏe</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Thông tin dược</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-all">
+            <div class="cover-list-news">
+                <img src="img/thành tựu/banner.jpg" alt="">
+                <div class="name-cate-cover">Đăng ký khám</div>
+                <div class="thanhtuu-bar_util">
+                    <div class="thanhtuu-col-4 col-4-w color-blue">
+                        <a href="#">
+                            <img src="img/thành tựu/Phone.png" alt="">
+                            <span>Gọi tổng đài</span>
+                        </a>
+                    </div>
+                    <div class="thanhtuu-col-4 col-4-w">
+                        <a href="datlichkham.html">
+                            <img src="img/thành tựu/Calendar.png" alt="">
+                            <span>Đặt lịch hẹn</span>
+                        </a>
+                    </div>
+                    <div class="thanhtuu-col-4 col-4-w">
+                        <a href="#">
+                            <img src="img/thành tựu/doctor.png" alt="">
+                            <span>Tìm bác sĩ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-body">
+                <div class="container-1">
+                    <div class="tt-bread">
+                        <a href="#" class="tt-item">Trang chủ</a>
+                        <i class="fa-solid fa-angle-right tt-item gt-item"></i>
+                        <a href="#" class="tt-item tt-item-1 tt-item-color">Đăng ký khám</a>
+                    </div>
+                    <div class="lk-content_info_book-1">
+                        <div class="lk-content_info_book">
+                            <h2 class="sm-title_cate_news">
+                                Nội dung chi tiết đặt hẹn
+                            </h2>
+                            <div class="lk-list_two_booking">
+                                <div class="lk-col6 lk-right">
+                                    <div class="lk-mb2">
+                                        <p class="lk-color-blue">
+                                            Bệnh viện/phòng khám Vinmec
+                                            <span class="lk-color-red">*</span>
+                                        </p>
+                                        <select class="form-select form-select-lg mb-3" id="lk-form-select">
+                                            <option selected>Chọn cơ sở khám</option>
+                                            <option value="1">BV ĐKQT Vinmec Times City (Hà Nội)</option>
+                                            <option value="2">BV ĐKQT Vinmec Central Park (Hồ Chí Minh)</option>
+                                            <option value="3">BV ĐKQT Vinmec Central Park (Hồ Chí Minh)</option>
+                                            <option value="4">BV ĐKQT Vinmec Phú Quốc</option>
+                                            <option value="5">BV ĐKQT Vinmec Đà Nẵng</option>
+                                            <option value="6">PK ĐKQT Vinmec Dương Đông</option>
+                                            <option value="7">BV ĐKQT Vinmec Hải Phòng</option>
+                                            <option value="8">BV ĐKQT Vinmec Hạ Long</option>
+                                            <option value="9">PK ĐKQT Vinmec Sài Gòn</option>
+                                        </select>
+                                    </div>
+                                    <div class="lk-mb2">
+                                        <p class="lk-color-blue">
+                                            Chuyên khoa
+                                            <span class="lk-color-red">*</span>
+                                        </p>
+                                        <select class="form-select form-select-lg mb-3" id="lk-form-select">
+                                            <option selected>Chọn chuyên khoa</option>
+                                            <option value="0">Chưa xác định chuyên khoa</option>
+                                        </select>
+                                    </div>
+                                    <div class="lk-mb2">
+                                        <p class="lk-color-blue">
+                                            Bác sĩ
+                                        </p>
+                                        <select class="form-select form-select-lg mb-3" id="lk-form-select">
+                                            <option selected>Chọn Bác sĩ muốn khám</option>
+                                            <option value="1">Bác sĩ Noname</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="#" class="lk-flex">
+                                            <input type="checkbox">
+                                            Đặt hẹn cho người nước ngoài
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="lk-col6 lk-left">
+                                    <p class="lk-color-blue color-toi">
+                                        Thời gian khám
+                                        <span class="lk-color-red color-toi">*</span>
+                                    </p>
+                                    <div class="lk-list_date">
+                                        <div class="lk-item_date active">
+                                            <p class="lk-f14">04/10</p>
+                                            <p class="lk-f12">Thứ 6</p>
+                                        </div>
+                                        <div class="lk-item_date">
+                                            <p class="lk-f14 lk-mau">05/10</p>
+                                            <p class="lk-f12 lk-999">Thứ 7</p>
+                                        </div>
+                                        <div class="lk-item_date">
+                                            <p class="lk-f14 lk-mau">06/10</p>
+                                            <p class="lk-f12 lk-999">Chủ nhật</p>
+                                        </div>
+                                        <div class="lk-item_date">
+                                            <p class="lk-f14 lk-mau">
+                                                <input type="date" class="lk-date-oder">
+                                            </p>
+                                            <p class="lk-f12 lk-999">Ngày khác</p>
+                                        </div>
+                                    </div>
+                                    <div class="lk-mt2">
+                                        *Lưu ý: Thời gian khám trên chỉ là thời gian dự kiến, tổng đài sẽ
+                                        liên hệ xác nhận thời gian khám chính xác tới quý khách sau khi quý
+                                        khách đặt hẹn.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lk-mt60">
+                                <h2 class="sm-title_cate_news">
+                                    Thông tin khách hàng
+                                </h2>
+                                <div class="lk-list_two_booking lk-mbt-1">
+                                    <div class="lk-col6 lk-right">
+                                        <div class="lk-mb2 lk-mbt">
+                                            <p class="lk-color-blue">
+                                                Họ và tên
+                                                <span class="lk-color-red">*</span>
+                                            </p>
+                                            <div class="lk-input">
+                                                <input class="lk-input-1" id="lk-form-select" type="text"
+                                                    placeholder="Họ và tên">
+                                                <div class="lk-input_gender">
+                                                    <label for="#" class="lk-lable">
+                                                        <input type="radio" name="gender" class="lk-gender-picker">
+                                                        Nam
+                                                    </label>
+                                                    <label for="#" class="lk-lable">
+                                                        <input type="radio" name="gender" class="lk-gender-picker">
+                                                        Nữ
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="lk-mb2 lk-mbt">
+                                            <p class="lk-color-blue">
+                                                Số điện thoại
+                                                <span class="lk-color-red">*</span>
+                                            </p>
+                                            <div class="lk-input">
+                                                <input class="lk-input-2" id="lk-form-select" type="text"
+                                                    placeholder="Nhập số điện thoại">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lk-col6 lk-left">
+                                        <div class="lk-mb2 lk-mbt">
+                                            <p class="lk-color-blue">
+                                                Ngày tháng năm sinh
+                                                <span class="lk-color-red">*</span>
+                                            </p>
+                                            <div class="lk-input">
+                                                <input class="lk-input-2" id="lk-form-select" type="date"
+                                                    placeholder="Ngày tháng năm sinh" max="10/04/2024">
+                                            </div>
+                                        </div>
+                                        <div class="lk-mb2 lk-mbt">
+                                            <p class="lk-color-blue">
+                                                Email
+                                                <span class="lk-color-red">*</span>
+                                            </p>
+                                            <div class="lk-input">
+                                                <input class="lk-input-2" id="lk-form-select" type="email"
+                                                    placeholder="Nhập email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lk-col12">
+                                        <div class="lk-mb2 lk-mbt">
+                                            <p class="lk-color-blue">
+                                                Lý do khám
+                                                <span class="lk-color-red">*</span>
+                                            </p>
+                                            <div class="lk-input">
+                                                <textarea class="lk-input-2" name="#" id="lk-form-select" cols="30"
+                                                    rows="10" placeholder="Triệu chứng của bạn"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label for="#" class="lk-flex">
+                                            <input type="checkbox">
+                                            Tôi đã đọc và xác nhận <a class="lk-cl-blue" href="#">Điều khoản dịch vụ</a>
+                                            của
+                                            bệnh viện.
+                                            <span class="lk-color-red">*</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="lk-text-center">
+                                    <button class="lk-btn_send_book">Gửi thông tin</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="tt-footer">
+            <div class="container-1">
+                <div class="tt-footer-1">
+                    <div class="card" id="card-footer">
+                        <div class="card-body" id="card-body-footer">
+                            <h5 class="card-title">Hệ thống Healthcare</h5>
+                            <div class="tt-footer-item">
+                                <a href="#">
+                                    <p class="card-text">Tầm nhìn sứ mệnh</p>
+                                    <p class="card-text">Hệ thống cơ sở y tế</p>
+                                    <p class="card-text">Tìm bác sĩ</p>
+                                    <p class="card-text">Làm việc tại Healthcare</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="card-footer">
+                        <div class="card-body" id="card-body-footer">
+                            <h5 class="card-title">Dịch vụ</h5>
+                            <div class="tt-footer-item">
+                                <a href="#">
+                                    <p class="card-text">Chuyên khoa</p>
+                                    <p class="card-text">Gói dịch vụ</p>
+                                    <p class="card-text">Bảo hiểm</p>
+                                    <p class="card-text">Đặt lịch hẹn</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="card-footer">
+                        <div class="card-body" id="card-body-footer">
+                            <h5 class="card-title">Tải App MyHealthcare</h5>
+                            <div class="tt-footer-item">
+                                <p class="card-text">
+                                    <img src="img/thông tin/product/maQR.png" alt="">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="card-footer">
+                        <div class="card-body" id="card-body-footer">
+                            <h5 class="card-title">Theo dõi chúng tôi</h5>
+                            <div class="tt-footer-item">
+                                <p class="card-text">
+                                    <a href="#">
+                                        <img src="img/thông tin/product/Youtube_4bbcb9431f.png" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/thông tin/product/Facebook_edefcd7d2d.png" alt="">
+                                    </a>
+                                </p>
+                            </div>
+                            <h5 class="card-title">Đối tác liên kết</h5>
+                            <div class="tt-footer-item">
+                                <div class="tt-footer-active">
+                                    <a href="#">
+                                        <img src="img/thông tin/product/icon-congdong.webp" alt="">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/thông tin/product/icon-buoctiep.webp" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="card-footer">
+                        <div class="card-body" id="card-body-footer">
+                            <div class="tt-footer-item">
+                                <div class="tt-footer-active-1">
+                                    <a class="tt-footer-thongtin" href="#">
+                                        <img src="img/thông tin/product/download.png" alt="">
+                                    </a>
+                                    <a class="tt-footer-thongtin-1" href="#">
+                                        <img src="img/thông tin/product/dmca_premi_badge_4_fd4745ff55.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-2">
+                <div class="container-1">
+                    <div class="tt-footer-2">
+                        <div class="tt-footer-banquyen">Bản quyền © 2024 thuộc về Công ty Cổ phần Bệnh viện Đa khoa Quốc
+                            tế Healthcare</div>
+                        <div>
+                            <ul class="tt-footer-nolist">
+                                <li class="tt-footer-inline"><a href="#">Điều khoản sử dụng</a></li>
+                                <li class="tt-footer-inline"><a href="#">Chính sách bảo mật</a></li>
+                                <li class="tt-footer-inline"><a href="#">Chính sách bảo vệ dữ liệu cá nhân</a></li>
+                                <li class="tt-footer-inline"><a href="#">GR Privacy</a></li>
+                                <li class="tt-footer-inline tt-footer-boder-none"><a href="#">GR Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2b5ed98ab2.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</body>
+
+</html>
