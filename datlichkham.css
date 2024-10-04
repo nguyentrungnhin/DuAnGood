@@ -743,6 +743,14 @@ body {
         content: "";
     }
 
+    .tt-tinhnang {
+        font-size: 8px;
+    }
+
+    .tt-vaitro {
+        margin: auto;
+    }
+
     /* main */
     .thanhtuu-bar_util {
         display: none;
